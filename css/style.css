@@ -1,0 +1,333 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+body{
+	margin:0;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-weight:400;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+input[type="button"],input[type="submit"],input[type="text"],input [type="password"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;		
+	font-weight:400;
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-family: 'Snippet', sans-serif;
+}
+
+.clear {
+	clear:both;
+}
+p{
+	margin:0;
+	font-family: 'Titillium Web', sans-serif;
+}
+label{
+	margin:0;
+}
+img {
+    width: 100%;
+}
+@font-face{
+	font-family:'Snippet';
+	src: url('../fonts/Snippet.ttf');
+}	
+@font-face{
+	font-family:'Barlow';
+	src: url('../fonts/Barlow.ttf');
+}	
+@font-face{
+	font-family:'Titillium Web';
+	src: url('../fonts/TitilliumWeb.ttf');
+}	
+/*--end reset--*/
+.login-main {
+    background:rgba(2, 2, 2, 0.47);
+    min-height: 800px;
+}
+.login-main h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5em 0 1.5em;
+    margin: 0;
+    color: #fff;
+}
+.login-form {
+    width: 25%;
+    margin: 3em auto 0;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.72);
+}
+.login-form i {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #00a9a9;
+    padding: 6px;
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.6;
+    background: #00a9a9;
+    color: #fff;
+}
+.login-form input[type="text"],.login-form input[type="password"]{ 
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 6px;
+    width: 90%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+	background: #fff;
+    float: left;
+    line-height: 1.75;
+    margin: 0 0 30px 0;
+}
+input[type="submit"] {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 35%;
+    padding: 4px;
+    margin: 0px auto 20px;
+    display: block;
+    border: none;
+    outline: none;
+    background: #00a9a9;
+    color: #fff;
+    cursor: pointer;
+}
+.login-form h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 30px 0;
+    color: #f3f5f8;
+    margin: 0;
+}
+.login-password a {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    letter-spacing: 1px;
+    margin: 25px 0;
+    padding: 0;
+}
+.social-icons{
+	text-align:center;
+}
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social-icons li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+.social-icons i {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    display: block;
+    line-height: 1;
+    background: none;
+    border: 2px solid #fff;
+}
+.social-icons i.fa.fa-facebook:hover {
+    background: #3b5998;
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+.social-icons i.fa.fa-twitter:hover {
+    background: #1da1f2;
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+.social-icons i.fa.fa-google-plus:hover {
+    background: #dd4b39;
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+/*--footer--*/
+.footer {
+    padding:5em 0;
+	text-align:center;
+}
+.footer p {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer p a {
+      color:#00a9a9;
+	  text-decoration:none;
+}
+.footer p a:hover {
+   text-decoration:none;
+}
+/*--/footer--*/
+/*--responsive--*/
+@media(max-width:1920px){
+	.login-main{
+	    min-height: 1000px;
+	}
+}
+@media(max-width:1680px){
+	.login-main {
+		min-height: 1000px;
+	}
+}
+@media(max-width:1600px){
+	.login-main {
+		min-height: 800px;
+	}
+	.login-main h1 {
+		padding: 1.5em 0 1em;
+	}
+}
+@media(max-width:1440px){
+	
+}
+@media(max-width:1366px){
+	.login-form {
+		width: 28%;
+	}
+}
+@media(max-width:1280px){
+	.login-form {
+		width: 30%;
+	}
+	.footer {
+		padding: 4em 0 0;
+	}
+}
+@media(max-width:1080px){
+	.login-form {
+		width: 33%;
+	}
+	.login-main {
+		min-height: 800px;
+	}
+	
+}
+@media(max-width:1050px){
+	.login-form {
+		width: 35%;
+	}
+}
+@media(max-width:1024px){
+	.login-form {
+		width: 35%;
+	}
+}
+@media(max-width:991px){
+	.login-form {
+		width: 37%;
+	}
+}
+@media(max-width:900px){
+	.login-form {
+		width: 39%;
+	}
+}
+@media(max-width:800px){
+	.login-form {
+		width: 45%;
+	}
+}
+@media(max-width:768px){
+	.login-form {
+		width: 48%;
+	}
+}
+@media(max-width:736px){
+	.login-form {
+		width: 50%;
+	}
+}
+@media(max-width:667px){
+	.login-form {
+		width: 55%;
+	}
+}
+@media(max-width:600px){
+	.login-form {
+		width: 60%;
+		margin: 1em auto 0;
+	}
+}
+@media(max-width:568px){
+	
+}
+@media(max-width:480px){
+	.login-form {
+		width: 67%;
+	}
+}
+@media(max-width:414px){
+	.login-main h1 {
+		font-size: 35px;
+	}
+	.login-form {
+		width: 72%;
+	}
+	.login-main {
+		min-height: 780px;
+	}
+}
+@media(max-width:384px){
+	.login-form {
+		width: 76%;
+	}
+}
+@media(max-width:375px){
+	.login-main h1 {
+		font-size: 30px;
+	}
+}
+@media(max-width:320px){
+	.footer {
+		padding: 2em 0;
+	}	
+}
+/*--/responsive--*/
